@@ -1,6 +1,6 @@
 import {useEffect, useMemo, useRef, useState } from "react";
 
-import img1 from "../assets/img1.JPG"
+import img1 from "../assets/img1.jpg"
 import img2 from "../assets/img2.JPG"
 import img3 from "../assets/img3.JPG"
 import photo1 from "../assets/photo1.JPG"
@@ -42,8 +42,8 @@ export default function Projects() {
         image: isMobile ? photo1 : img1,
       },
       {
-        title: "Gamily",
-        link: "https://gamilyapp.com/",
+        title: "FinLedger – End-to-End Transaction Backend",
+        link: "https://github.com/yadavaman05/Backend-Ledger",
         bgColor: "#3884d3",
         image: isMobile ? photo2 : img2,
       },

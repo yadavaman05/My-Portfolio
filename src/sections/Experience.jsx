@@ -16,13 +16,13 @@ const experiences = [
     description:
       "Built responsive websites using React.js, Bootstrap, and MongoDB. Improved loading speed, implemented secure authentication, and added interactive features to boost usability."
   },
-  {
-    role: "Graduate Engineer",
-    company: "HCL Technologies",
-    duration: "2024–2025",
-    description:
-      "Built frontend of GenAI-powered PV Intake App with Next.js & TS for US client.",
-  },
+  // {
+  //   role: "Graduate Engineer",
+  //   company: "HCL Technologies",
+  //   duration: "2024–2025",
+  //   description:
+  //     "Built frontend of GenAI-powered PV Intake App with Next.js & TS for US client.",
+  // },
 ];
 
 function ExperienceItem({exp, idx, start, end, scrollYProgress, layout}) {
