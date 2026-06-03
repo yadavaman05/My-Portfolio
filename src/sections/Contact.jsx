@@ -164,7 +164,7 @@ const handleSubmit = async (e) => {
       Something in mind?
     </option>
     <option value="Web Development" className="text-black">Web Development</option>
-    <option value="Mobile Application" className="text-black">Mobile Application</option>
+    <option value="Mobile Application" className="text-black">GEN-AI</option>
     <option value="other" className="text-black">Others</option>
   </select>
   {errors.email && <p className="text-red-500 text-xs">{errors.email}</p>}
