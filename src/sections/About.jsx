@@ -5,9 +5,9 @@ import p from "../assets/p.jpg";
 export default function About() {
 
 const stats = [
-  {label: "Experience", value : "Fresher"},
-  {label: "Speciality", value : "Full Stack"},
-  {label: "Focus", value : "Performance & UX"},
+  {label: "Focus", value : "GenAI & Full-Stack"},
+  {label: "Projects", value : "4+ Core Apps"},
+  {label: "DSA Solved", value : "150+ Problems"},
 ];
 
 
@@ -65,15 +65,11 @@ const stats = [
         </h2>
 
         <p className="mt-2 text-lg sm:text-xl text-white/90 font-semibold">
-          Full Stack Developer
+          Full-Stack & Generative AI Developer
         </p>
 
         <p className="mt-4 text-gray-300 leading-relaxed text-base sm:text-lg max-w-2xl md:max-w-3xl">
-          I build scalable, modern applications with a strong focus on clean
-          architecture, delightful UX, and performance. My toolkit spans Java,
-          React, Next.js, TypeScript, Tailwind CSS, and Restful APIs — bringing
-          ideas to life from concept to production with robust APIs and smooth
-          interfaces.
+          I build scalable web applications and cognitive GenAI workflows with a strong focus on clean architecture, performance, and retrieval accuracy. My expertise spans building backends in Node.js and Flask, crafting responsive frontends in React.js, and integrating LLMs with Gemini API, LangChain, and RAG.
         </p>
 
         <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4 max-w-xl ">
@@ -121,11 +117,10 @@ const stats = [
         About Me
       </h3>
       <p className="text-gray-300 leading-relaxed text-base sm:text-lg">
-        I'm a Software Developer, Content Creator, and Web Developer - passionate
-        about building fast, resilient applications.
+        I am a Computer Science & Engineering undergraduate at Vellore Institute of Technology, Bhopal, specializing in full-stack web architectures and intelligent systems. I enjoy bridging the gap between standard backend systems and cognitive AI agents.
       </p>
       <p className="mt-4 text-gray-400 text-base sm:text-lg">
-        I love turning ideas into scalable, user-friendly products.
+        I aim to develop scalable solutions that address complex problems, combining clean logic with advanced retriever models.
       </p>
     </motion.div>
 

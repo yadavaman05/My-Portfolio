@@ -9,8 +9,9 @@ import Footer from "./sections/Footer";
 import Home from "./sections/Home";
 import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
-import Testimonial from "./sections/Testimonial";
+import EducationCertifications from "./sections/EducationCertifications";
 import IntroAnimation from "./components/IntroAnimation";
+import Chatbot from "./components/Chatbot";
 
 
 
@@ -29,11 +30,12 @@ export default function App(){
   <Home/>
   <About/>
   <Skills/>
-  <Projects/>
   <Experience/>
-  <Testimonial/>
+  <Projects/>
+  <EducationCertifications/>
   <Contact/>
   <Footer/>
+  <Chatbot/>
 
 </div>
 )}

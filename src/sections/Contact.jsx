@@ -163,11 +163,12 @@ const handleSubmit = async (e) => {
     <option value="" disabled>
       Something in mind?
     </option>
-    <option value="Web Development" className="text-black">Web Development</option>
-    <option value="Mobile Application" className="text-black">GEN-AI</option>
+    <option value="Full-Stack Web App" className="text-black">Full-Stack Web App</option>
+    <option value="Generative AI Integration" className="text-black">Generative AI Integration</option>
+    <option value="API Development / Backend" className="text-black">API Development / Backend</option>
     <option value="other" className="text-black">Others</option>
   </select>
-  {errors.email && <p className="text-red-500 text-xs">{errors.email}</p>}
+  {errors.service && <p className="text-red-500 text-xs">{errors.service}</p>}
 </div>
 
 {formData.service && formData.service !== "other" && (

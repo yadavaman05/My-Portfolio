@@ -53,7 +53,11 @@ const glowVariants = {
 
 export default function Home() {
   const roles = useMemo(
-    () => ["Web Developer", "Software Developer"],
+    () => [
+      "Full-Stack Developer",
+      "Generative AI Engineer",
+      "AI Application Developer",
+    ],
     []
   );
 
@@ -151,8 +155,7 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.8 }}
             >
-              I turn complex ideas into seamless, high-impact web experiences, building modern,
-              scalable, and lightning-fast applications that make a difference.
+              I build scalable full-stack applications and cognitive GenAI workflows—crafting intelligent interfaces and robust backend architectures.
             </motion.p>
 
             <motion.div

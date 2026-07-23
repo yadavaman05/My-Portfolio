@@ -1,30 +1,49 @@
-import { FaJava, FaReact } from "react-icons/fa";
+import { FaJava, FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaGitAlt, FaAws, FaDatabase, FaCode } from "react-icons/fa";
 import {
-  SiNextdotjs,
-  SiTypescript,
-  SiTailwindcss,
-  SiFastapi,
   SiPython,
-  SiDocker,
+  SiJavascript,
+  SiFlask,
+  SiExpress,
   SiMongodb,
-  SiAngular,
+  SiPostgresql,
+  SiMysql,
+  SiGoogle,
+  SiLangchain,
+  SiHuggingface,
+  SiBootstrap,
+  SiFigma,
+  SiCanva,
+  SiGithub,
 } from "react-icons/si";
-import { DiNodejsSmall } from "react-icons/di";
 import { motion, useMotionValue } from "framer-motion";
 import { useState, useEffect, useRef } from "react";
 
 export default function Skills() {
   const skills = [
     { icon: <FaJava />, name: "Java" },
-    { icon: <FaReact />, name: "React" },
-    { icon: <SiNextdotjs />, name: "Next.js" },
-    { icon: <SiTypescript />, name: "TypeScript" },
-    { icon: <SiTailwindcss />, name: "Tailwind CSS" },
-    { icon: <SiFastapi />, name: "FastAPI" },
     { icon: <SiPython />, name: "Python" },
-    { icon: <SiDocker />, name: "Docker" },
-    { icon: <DiNodejsSmall />, name: "Node.js" },
+    { icon: <SiJavascript />, name: "JavaScript" },
+    { icon: <FaDatabase />, name: "SQL" },
+    { icon: <FaHtml5 />, name: "HTML" },
+    { icon: <FaCss3Alt />, name: "CSS" },
+    { icon: <FaReact />, name: "React.js" },
+    { icon: <SiBootstrap />, name: "Bootstrap" },
+    { icon: <FaNodeJs />, name: "Node.js" },
+    { icon: <SiExpress />, name: "Express.js" },
+    { icon: <SiFlask />, name: "Flask" },
     { icon: <SiMongodb />, name: "MongoDB" },
+    { icon: <SiPostgresql />, name: "PostgreSQL" },
+    { icon: <SiMysql />, name: "MySQL" },
+    { icon: <FaDatabase />, name: "Pinecone" },
+    { icon: <SiGoogle />, name: "Gemini API" },
+    { icon: <SiLangchain />, name: "LangChain" },
+    { icon: <SiHuggingface />, name: "Embeddings" },
+    { icon: <FaGitAlt />, name: "Git" },
+    { icon: <SiGithub />, name: "GitHub" },
+    { icon: <FaCode />, name: "VS Code" },
+    { icon: <FaAws />, name: "AWS" },
+    { icon: <SiFigma />, name: "Figma" },
+    { icon: <SiCanva />, name: "Canva" },
   ];
 
   const repeated = [...skills, ...skills];

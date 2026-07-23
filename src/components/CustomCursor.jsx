@@ -1,20 +1,24 @@
-
 import { useEffect, useState } from "react";
 
-
 export default function CustomCursor(){
-
-const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [hidden] = useState(() => {
+    if (typeof window === "undefined") return true;
+    return window.matchMedia("(pointer: coarse)").matches;
+  });
 
   useEffect(() => {
+    if (hidden) return;
+
     const moveHandler = (e) => {
       setPosition({ x: e.clientX, y: e.clientY });
     };
 
     window.addEventListener("mousemove", moveHandler);
     return () => window.removeEventListener("mousemove", moveHandler);
-  }, []);
+  }, [hidden]);
 
+  if (hidden) return null;
 
   return(
     <div className="pointer-events-none fixed top-0 left-0 z-9999"

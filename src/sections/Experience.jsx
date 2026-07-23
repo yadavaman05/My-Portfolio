@@ -3,26 +3,12 @@ import { useEffect, useRef, useState, useMemo } from "react";
 
 const experiences = [
   {
-    role: "Experiential Learning Program",
-    company: "Industry Immersion Program",
-    duration: "Nov 2025",
+    role: "Full-Stack & Generative AI Developer",
+    company: "Independent Projects",
+    duration: "Feb 2025 – Present",
     description:
-      "AI/ML workshops (EDA, CNNs), industry visits to BSNL Data Center and L&T Metro Rail, and startup ecosystem exposure including T-Works, and T-Hub.",
-  },
-  {
-    role: "Self-Employed",
-    company: "Freelance / Personal Projects",
-    duration: "2025 - Present",
-    description:
-      "Built responsive websites using React.js, Bootstrap, and MongoDB. Improved loading speed, implemented secure authentication, and added interactive features to boost usability."
-  },
-  // {
-  //   role: "Graduate Engineer",
-  //   company: "HCL Technologies",
-  //   duration: "2024–2025",
-  //   description:
-  //     "Built frontend of GenAI-powered PV Intake App with Next.js & TS for US client.",
-  // },
+      "• Engineered 3+ scalable full-stack web applications on the MERN stack (React.js, Node.js, Express.js, MongoDB) for production-grade reliability.\n• Automated content-generation workflows with LLMs and the Gemini API, significantly reducing turnaround time through targeted prompt design.\n• Combined LangChain, RAG, and vector embeddings to sharpen contextual accuracy and retrieval precision across AI models."
+  }
 ];
 
 function ExperienceItem({exp, idx, start, end, scrollYProgress, layout}) {
@@ -59,7 +45,7 @@ function ExperienceItem({exp, idx, start, end, scrollYProgress, layout}) {
           <p className="text-md text-gray-400 mb-3">
             {exp.company} | {exp.duration}
           </p>
-          <p className="text-md text-gray-300 brack-words">
+          <p className="text-md text-gray-300 brack-words whitespace-pre-line">
             {exp.description}
           </p>
 
@@ -83,7 +69,7 @@ function ExperienceItem({exp, idx, start, end, scrollYProgress, layout}) {
         <p className="text-sm text-gray-400 mb-2 brack-words">
           {exp.company} | {exp.duration}
         </p>
-        <p className="text-sm text-gray-300 brack-words">{exp.description}</p>
+        <p className="text-sm text-gray-300 brack-words whitespace-pre-line">{exp.description}</p>
       </motion.article>
     </div>
   );
