@@ -47,7 +47,7 @@ export default function Projects() {
         ],
         tech: ["MongoDB", "Express.js", "React.js", "Node.js", "Socket.IO", "Gemini API", "RAG"],
         link: "https://github.com/yadavaman05/chat-app",
-        demo: "https://chat-app-git-main-aman-y-projects.vercel.app/login",
+        demo: "https://chat-app-red-tau.vercel.app/",
         bgColor: "#0f0f15",
         image: "/src/assets/projects/ai-chat-app.png",
       },
